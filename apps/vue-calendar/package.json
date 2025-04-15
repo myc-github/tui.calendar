@@ -9,7 +9,10 @@
   "exports": {
     ".": {
       "import": "./dist/toastui-vue-calendar.mjs",
-      "require": "./dist/toastui-vue-calendar.js"
+      "require": "./dist/toastui-vue-calendar.js",
+      "types": {
+        "default": "./types/index.d.ts"
+      }
     },
     "./ie11": "./dist/toastui-vue-calendar.ie11.js",
     "./esm": "./dist/toastui-vue-calendar.mjs"
